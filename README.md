@@ -20,6 +20,12 @@ The application uses a goroutine-per-client model with a central command process
 - **Client goroutines** - One per connected client, handles input reading
 - **Channel communication** - Thread-safe message passing between goroutines
 
+### User Flow
+![User Flow](images/user-flow.png)
+
+### System Architecture
+![Architecture](images/architecture.png)
+
 ## Quick Start
 
 ### Prerequisites
